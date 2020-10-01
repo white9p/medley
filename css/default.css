@@ -63,8 +63,9 @@ footer{ width:100%; background:#fff; padding-top:2rem;}
 .bottom ul li >strong{font-size:2.3rem; line-height: 3.5rem; font-weight:800;color:#e8ba3f;display:block;}
 .bottom ul li p{font-size:1.6rem; font-weight:200; margin-top:.5rem;margin-bottom: .5rem; color:#fff;}
 .brand{font-size:3rem !important;}
-.bottom ul li:last-child{margin-top:3rem;padding-bottom:1rem;}
+.bottom ul li:last-child{margin-top:3rem;padding-bottom:1rem;margin-bottom:0;}
 .bottom ul li:last-child p{font-size:.5rem}
+
 /* footer >div{padding-left:2rem;  margin-bottom:2rem; line-height: 2rem;}
 footer >div:nth-child(5){padding:0; width:100%; text-align: center; background:#d7d7d7;}
 footer>div a,footer>div strong{font-family: 'Montserrat',Sans-serif,Helvetica;height:2rem;}
