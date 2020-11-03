@@ -88,19 +88,20 @@ header nav ul li a{font-size:1.8rem; line-height: 5.4rem;vertical-align: middle;
 .best .slide ul li a > span{display:block;  font-size:1.7rem; line-height:2rem;}
 .best .slide ul li img{width:100%; height:auto;}
 /*카테고라이즈 섹션*/
-.categorize{width:100%; height:auto;}
-.categorize ul {display:block; width:80%; height:80rem;margin:1rem auto;margin-top:10rem;}
-.categorize ul li{float:left;width:45%; height:80rem; margin-top:1rem; position: relative; margin-left:3.3%;}
+.categorize{width:100%; height:105rem;}
+.categorize ul {display:block; width:80%; height:80rem;margin:1rem auto;margin-top:10rem; display:flex; flex-flow: row nowrap; justify-content: space-evenly;}
+.categorize ul li{width:45%; height:80rem; margin-top:1rem; position: relative;}
+
 .categorize ul li a{width:100%; height:100%;}
 .categorize ul li a img{width:100%; height:auto;}
 .categorize ul li a h2{text-transform: uppercase; width:100%; text-align:center;font-size:3.8rem; font-weight:700; color:#e8ba3f; position: absolute; top:35%; left:0; text-shadow: 1px 1px 1px black;}
 /*리뷰섹션*/
-.reviews{width:100%; height:50rem;}
+.reviews{width:100%; height:55rem;}
 .reviews>p{font-size:2rem;margin-bottom: 5rem;}
-.reviews ul{margin-top:.6rem; margin-bottom: 1rem;width:100%; display:flex; flex-flow:row wrap; justify-content: center; align-items: center;}
-.reviews ul li{display:block; width:20%; }
-.reviews ul li a{width:24rem; height: 25rem;}
-.reviews ul li img{display:block;width:24rem; height:25rem;}
+.reviews ul{margin:0 auto;margin-top:.6rem; margin-bottom: 1rem;width:90%; display:flex; flex-flow:row wrap; justify-content: space-around; align-items: center;}
+.reviews ul li{display:block; width:20%;height:auto }
+.reviews ul li a{display:block;width: 100% !important; height:100% !important;margin-right:0 !important;}
+.reviews ul li img{display:block;width:100%; height:auto;}
 /*인포섹션*/
 .info{width:100%; height:auto; margin-top:10rem;}
 .info ul{width:100%; display:flex; flex-flow:row wrap; justify-content: ; align-items: center; }
